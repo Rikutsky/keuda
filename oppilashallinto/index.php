@@ -58,19 +58,19 @@ $oppilaat = $pdo->query("SELECT * FROM oppilaat")->fetchAll();
     <input type="text" name="sukunimi" value="<?= $muokattava['sukunimi'] ?? '' ?>" required><br>
     
     <label>Katuosoite:</label><br>
-    <input type="text" name="katuosoite" value="<?= $muokattava['katuosoite'] ?? '' ?>"><br>
+    <input type="text" name="katuosoite" value="<?= $muokattava['katuosoite'] ?? '' ?>" required><br>
     
     <label>Postinumero:</label><br>
-    <input type="text" name="postinumero" value="<?= $muokattava['postinumero'] ?? '' ?>"><br>
+    <input type="text" name="postinumero" value="<?= $muokattava['postinumero'] ?? '' ?>" required><br>
     
     <label>Kaupunki:</label><br>
-    <input type="text" name="kaupunki" value="<?= $muokattava['kaupunki'] ?? '' ?>"><br>
+    <input type="text" name="kaupunki" value="<?= $muokattava['kaupunki'] ?? '' ?>" required><br>
     
     <label>Sähköposti:</label><br>
-    <input type="email" name="sahkoposti" value="<?= $muokattava['sahkoposti'] ?? '' ?>"><br>
+    <input type="email" name="sahkoposti" value="<?= $muokattava['sahkoposti'] ?? '' ?>" required><br>
     
     <label>Puhelin:</label><br>
-    <input type="text" name="puhelin" value="<?= $muokattava['puhelin'] ?? '' ?>"><br><br>
+    <input type="text" name="puhelin" value="<?= $muokattava['puhelin'] ?? '' ?>" required><br><br>
 
     <button type="submit"><?= $muokattava ? 'Päivitä' : 'Lisää' ?></button>
     <?php if ($muokattava): ?>
