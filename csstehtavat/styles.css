@@ -1,0 +1,68 @@
+/* varmistetaan, että sivu täyttää selaimen korkeuden footeria varten */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* yleiset tyylit ja pohja */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 70px; /* Tilaa alatunnisteelle */
+    box-sizing: border-box;
+}
+
+/* otsikot  */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+}
+
+#title {
+    color: #e78a53;
+    font-size: 32px;
+}
+
+/* rakenne ja sisennykset */
+.content-block {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background-color: #111;
+    border: 1px solid #e78a53;
+    border-radius: 4px;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+.ingressi {
+    font-style: italic;
+    color: #ccc;
+}
+
+.link {
+    color: #e78a53;
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #111;
+    border-top: 1px solid #333;
+    color: #888;
+    font-size: 14px;
+}
