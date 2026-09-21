@@ -40,7 +40,7 @@ h1, h2, h3, .brand, .eyebrow {
 
 .nav-list a:hover,
 .nav-list a[aria-current="page"] {
-    color: #e78a53;
+    color: #e6986b;
 }
 
 /* osioiden asettelu */
@@ -90,7 +90,7 @@ h1, h2, h3, .brand, .eyebrow {
 }
 
 .button:hover {
-    background: #e78a53;
+    background: #e6986b;
 }
 
 .help-button {
