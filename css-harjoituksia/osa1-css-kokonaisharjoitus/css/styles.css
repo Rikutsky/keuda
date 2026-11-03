@@ -1,0 +1,82 @@
+/*
+  CSS-kokonaisharjoitus – Osa 1
+  Täydennä alla olevat säännöt tehtäväsivun vaatimusten mukaan.
+
+  Tässä harjoituksessa EI käytetä Flexboxia tai Gridiä.
+*/
+
+/* 1. Elementtivalitsin
+   Aseta sivulle margin, fontti, fonttikoko, rivikorkeus,
+   tekstin väri ja taustaväri. */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #afafaf;
+  background-color: #111;
+  margin: 0;
+}
+
+/* 2. Ryhmittelyvalitsin
+   Anna h1-, h2- ja h3-otsikoille sama tekstiväri. */
+h1,
+h2,
+h3 {
+color: #e78a53;
+}
+
+/* 3. Elementtivalitsin
+   Valitse linkeille tekstiväri. */
+a {
+color: #e78a53;
+}
+
+/* 4. Luokkavalitsimet
+   Rajaa sisältö enimmäisleveyteen, keskitä se ja lisää sisätilaa. */
+.site-header,
+main,
+.site-footer {
+max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 5. Luokkavalitsin
+   Lisää kortille ulkoväli, sisätila, tausta, reuna ja pyöristetyt kulmat. */
+.card {
+margin: 20px 0;
+  padding: 20px;
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+/* 6. ID-valitsin
+   Lisää ylätunnisteen alareunaan erottuva reunaviiva. */
+#top {
+border-bottom: 3px solid #e78a53;
+}
+
+/* 7. Luokkavalitsin
+   Tee linkistä painikkeen näköinen väreillä, reunalla, sisätilalla
+   ja pyöristyksellä. Poista tavallinen alleviivaus. */
+.button {
+display: inline-block;
+  color: #ffffff;
+  background-color: #e78a53;
+  border: 1px solid #e77d3f;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* 8. Valitse vielä vähintään yksi sivun luokka ja tee sille oma sääntö.
+   Esimerkkejä: .hero, .eyebrow, .card__badge tai .site-footer. */
+
+   /* footer, keskelle kohdistettu */
+.site-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  border-top: 1px solid #dddddd;
+}
