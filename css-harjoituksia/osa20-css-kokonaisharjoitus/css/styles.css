@@ -20,7 +20,7 @@
         --color-accent-subtle: rgba(231, 138, 83, 0.12);
 
         --color-text-main: #f3f4f6;
-        --color-text-muted: #ad1313;
+        --color-text-muted: #F42A2A;
         --color-text-inverse: #000000;
 
         --color-valid: #2eb85c;
@@ -196,6 +196,7 @@
 @layer layout {
     .site-header {
         grid-area: header;
+        flex-wrap: wrap;
         position: sticky;
         inset-block-start: 0;
         z-index: 100;
@@ -225,7 +226,7 @@
         border-block-start: 1px solid var(--color-border);
         background-color: var(--color-bg-surface);
         padding: var(--space-m);
-        color: var(--color-text--main);
+        color: var(--color-text-main);
         font-size: var(--font-size-small);
         text-align: center;
     }
@@ -290,6 +291,7 @@
     @scope (.nav-list) {
         :scope {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             gap: var(--space-m);
             list-style: none;
